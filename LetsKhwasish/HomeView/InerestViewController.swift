@@ -7,19 +7,13 @@
 //
 
 import UIKit
-
+import SideMenu
 class InerestViewController: UIViewController,UICollectionViewDelegate, UICollectionViewDataSource {
 
     let items = ["Health", "Education", "Finance", "IT/Web", "Craft Me", "Food", "Beauty", "Entertainment", "Sports", "Ecommerce", "Fashion", "Consellour"]
     let itemsImgs = ["health", "edu", "money", "computer", "craft", "food", "beauty", "emtertain", "edu", "computer", "beauty", "edu"]
 
-    @IBAction func btnDoneAction(_ sender: Any) {
-    let storyboard = UIStoryboard(name: "Main", bundle: nil)
-    let initialViewController = storyboard.instantiateViewController(withIdentifier: "HomeViewController")
-    let navigationVC = UINavigationController(rootViewController: initialViewController)
-    present(navigationVC, animated: true, completion: nil)
-
-    }
+   
     @IBOutlet weak var collectionView: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -62,6 +56,15 @@ class InerestViewController: UIViewController,UICollectionViewDelegate, UICollec
             
          }
 
+    @IBAction func btnDoneAction(_ sender: Any) {
+       let storyboard = UIStoryboard(name: "Main", bundle: nil)
+       let initialViewController = storyboard.instantiateViewController(withIdentifier: "HomeViewController")
+       let navigationVC = UINavigationController(rootViewController: initialViewController)
+       present(navigationVC, animated: true, completion: nil)
+
+//        let menu = SideMenuNavigationController(rootViewController: "HomeViewController")
+//        present(menu, animated: true, completion: nil)
+       }
     /*
     // MARK: - Navigation
 
