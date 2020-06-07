@@ -46,6 +46,8 @@ class LoginViewController: UIViewController,UITextFieldDelegate {
     @IBAction func btnTwitterAction(_ sender: Any) {
     }
     @IBAction func btnGetStartedAction(_ sender: Any) {
+        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "InerestViewController") as? InerestViewController
+        self.navigationController?.pushViewController(vc!, animated: true)
     }
     
     @IBAction func btnForgotPswdAction(_ sender: Any) {

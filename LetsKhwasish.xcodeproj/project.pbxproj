@@ -14,6 +14,8 @@
 		4254459A248C3F0C00A7FF50 /* InerestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42544599248C3F0C00A7FF50 /* InerestViewController.swift */; };
 		4254459E248C3F4500A7FF50 /* IntrestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4254459C248C3F4500A7FF50 /* IntrestCollectionViewCell.swift */; };
 		4254459F248C3F4500A7FF50 /* IntrestCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4254459D248C3F4500A7FF50 /* IntrestCollectionViewCell.xib */; };
+		425445A2248C6B9B00A7FF50 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425445A1248C6B9B00A7FF50 /* MenuTableViewController.swift */; };
+		425445A4248C71CB00A7FF50 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425445A3248C71CB00A7FF50 /* HomeViewController.swift */; };
 		42746FD5248A356300A4435A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42746FD4248A356300A4435A /* AppDelegate.swift */; };
 		42746FDC248A356300A4435A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42746FDA248A356300A4435A /* Main.storyboard */; };
 		42746FDE248A356A00A4435A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42746FDD248A356A00A4435A /* Assets.xcassets */; };
@@ -28,6 +30,8 @@
 		42544599248C3F0C00A7FF50 /* InerestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InerestViewController.swift; sourceTree = "<group>"; };
 		4254459C248C3F4500A7FF50 /* IntrestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntrestCollectionViewCell.swift; sourceTree = "<group>"; };
 		4254459D248C3F4500A7FF50 /* IntrestCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntrestCollectionViewCell.xib; sourceTree = "<group>"; };
+		425445A1248C6B9B00A7FF50 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		425445A3248C71CB00A7FF50 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		42746FD1248A356300A4435A /* LetsKhwasish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsKhwasish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42746FD4248A356300A4435A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42746FDB248A356300A4435A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -71,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				42544599248C3F0C00A7FF50 /* InerestViewController.swift */,
+				425445A3248C71CB00A7FF50 /* HomeViewController.swift */,
 			);
 			path = HomeView;
 			sourceTree = "<group>";
@@ -82,6 +87,14 @@
 				4254459D248C3F4500A7FF50 /* IntrestCollectionViewCell.xib */,
 			);
 			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		425445A0248C6B7A00A7FF50 /* MenuView */ = {
+			isa = PBXGroup;
+			children = (
+				425445A1248C6B9B00A7FF50 /* MenuTableViewController.swift */,
+			);
+			path = MenuView;
 			sourceTree = "<group>";
 		};
 		42746FC8248A356300A4435A = {
@@ -103,6 +116,7 @@
 		42746FD3248A356300A4435A /* LetsKhwasish */ = {
 			isa = PBXGroup;
 			children = (
+				425445A0248C6B7A00A7FF50 /* MenuView */,
 				4254459B248C3F1C00A7FF50 /* CustomCell */,
 				42544598248C3EED00A7FF50 /* HomeView */,
 				4254458E248BA30100A7FF50 /* StoryBoard */,
@@ -190,6 +204,8 @@
 				42544592248BA63A00A7FF50 /* LoginViewController.swift in Sources */,
 				42746FD5248A356300A4435A /* AppDelegate.swift in Sources */,
 				4254459E248C3F4500A7FF50 /* IntrestCollectionViewCell.swift in Sources */,
+				425445A2248C6B9B00A7FF50 /* MenuTableViewController.swift in Sources */,
+				425445A4248C71CB00A7FF50 /* HomeViewController.swift in Sources */,
 				42544590248BA61500A7FF50 /* SignUpViewController.swift in Sources */,
 				42544594248BA65600A7FF50 /* LandingViewController.swift in Sources */,
 				4254459A248C3F0C00A7FF50 /* InerestViewController.swift in Sources */,

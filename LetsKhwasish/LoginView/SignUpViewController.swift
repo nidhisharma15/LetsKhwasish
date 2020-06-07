@@ -44,6 +44,8 @@ class SignUpViewController: UIViewController,UITextFieldDelegate {
     }
     
     @IBAction func btnSubmitAction(_ sender: Any) {
+        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "InerestViewController") as? InerestViewController
+              self.navigationController?.pushViewController(vc!, animated: true)
     }
     
     //UITextFeild Delegate

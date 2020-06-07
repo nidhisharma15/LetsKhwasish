@@ -10,6 +10,12 @@ import UIKit
 
 class IntrestCollectionViewCell: UICollectionViewCell {
 
+    @IBOutlet weak var viewOuter: UIView!
+    @IBOutlet weak var viewInner: UIView!
+    @IBOutlet weak var imgInterest: UIImageView!
+    @IBOutlet weak var lblCategoryTitle: UILabel!
+    @IBOutlet weak var imgTick: UIImageView!
+    @IBOutlet weak var btnTick: UIButton!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
